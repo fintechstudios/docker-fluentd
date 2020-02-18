@@ -1,3 +1,3 @@
-FROM bitnami/fluentd:1.9.1-debian-10-r0
+FROM fluent/fluentd-kubernetes-daemonset:v1.8-debian-forward-1
 RUN fluent-gem install fluent-plugin-datadog
-USER root
+
